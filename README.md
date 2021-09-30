@@ -19,13 +19,13 @@
 | isFaceEnable | 是否开启人脸识别 | 
 
 # 方法列表
-开始捕捉 ` startCapture() `
-停止捕捉 ` stopCapture() `
-开始录像 ` startVideoRecord(filePath = nil) `
-停止录像 ` stopVideoRecord() `
-销毁存储的录像 ` inviladeVideoRecord() `
-切换摄像头 ` switchCamera() `
-切换闪光灯 ` switchFalsh() `
-拍照 ` takePhoto() `
-设置曝光值 `setExposure(value = 0) `
+开始捕捉 ` startCapture() `    
+停止捕捉 ` stopCapture() `      
+开始录像 ` startVideoRecord(filePath = nil) `     
+停止录像 ` stopVideoRecord() `     
+销毁存储的录像 ` inviladeVideoRecord() `     
+切换摄像头 ` switchCamera() `      
+切换闪光灯 ` switchFalsh() `      
+拍照 ` takePhoto() `     
+设置曝光值 `setExposure(value = 0) `      
 重置相机坐标 ` resetFrame(frame = .zero)`
